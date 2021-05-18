@@ -84,9 +84,9 @@
 
     function datemax(){
       var date = new Date();
-      var datemax = datem.toLocaleDateString();
-      var heure = datem.getHours();
-      var minute = datem.getMinutes();
+      var datemax = date.toLocaleDateString();
+      var heure = date.getHours();
+      var minute = date.getMinutes();
       localStorage.setItem("date",datemax);
       localStorage.setItem("heure",heure);
       localStorage.setItem("minute",minute);
